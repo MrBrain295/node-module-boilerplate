@@ -14,17 +14,20 @@
         "node": ">=8"
     },
     "scripts": {
-        "lint": "eslint .",
+        "lint": "xo",
         "test": "yarn lint && ava"
     },
     "keywords": [],
     "dependencies": {},
     "devDependencies": {
         "ava": "^2.1.0",
-        "eslint": "^6.6.0",
-        "eslint-config-richienb": "^0.2.2"
+        "eslint-config-richienb": "^0.2.2",
+        "xo": "^0.25.3"
     },
-    "eslintConfig": {
+    "resolutions": {
+        "eslint": "^6.6.0"
+    },
+    "xo": {
         "extends": "richienb/node"
     }
 }
