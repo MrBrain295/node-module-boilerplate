@@ -9,6 +9,6 @@
  * //=> 'unicorns & rainbows'
  * ```
 */
-declare function theModule(input: string, {postfix}: { postfix?: string }): string
+declare function theModule(input: string, { postfix }: { postfix?: string }): string
 
 export = theModule
