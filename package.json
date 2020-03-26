@@ -20,14 +20,14 @@
 	"keywords": [],
 	"dependencies": {},
 	"devDependencies": {
-		"ava": "^3.2.0",
-		"eslint-config-richienb": "^0.3.0",
-		"xo": "^0.25.3"
+		"ava": "^3.5.1",
+		"eslint-config-richienb": "^0.4.1",
+		"xo": "^0.28.1"
 	},
 	"resolutions": {
 		"eslint": "^6.8.0"
 	},
 	"xo": {
-		"extends": "richienb/node"
+		"extends": "richienb"
 	}
 }
