@@ -1332,7 +1332,7 @@ eslint-config-prettier@^6.10.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-richienb@^0.4.3:
+eslint-config-richienb@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/eslint-config-richienb/-/eslint-config-richienb-0.4.2.tgz#3c547810c8059cf025be38c040834b7578843047"
   integrity sha512-zLxh6ziNuXdAxRI8/B80Ma6ZuzfQKap17mMbuq9XTWHdutLTBNotAFMHbb33l/WF3QpkRFU5Wvn1pCzYV/I8zA==
