@@ -5,6 +5,7 @@ My awesome module.
 @example
 ```
 const theModule = require("the-module");
+
 theModule("unicorns");
 //=> 'unicorns & rainbows'
 ```
