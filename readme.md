@@ -13,10 +13,10 @@ npm install the-module
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const theModule = require("the-module")
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+theModule("unicorns")
+//=> "unicorns & rainbows"
 ```
 
 ## API
