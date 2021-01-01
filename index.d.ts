@@ -1,7 +1,9 @@
 /**
 My awesome module.
+
 @param input Lorem ipsum.
 @param postfix Lorem ipsum.
+
 @example
 ```
 const theModule = require("the-module")
