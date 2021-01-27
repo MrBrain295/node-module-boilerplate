@@ -1,17 +1,27 @@
+declare namespace theModule {
+	export interface Options {
+		/**
+		Lorem ipsum.
+
+		@default rainbows
+		*/
+		postfix?: string
+	}
+}
+
 /**
 My awesome module.
 
 @param input Lorem ipsum.
-@param postfix Lorem ipsum.
 
 @example
 ```
-const theModule = require("the-module")
+import theModule from "the-module"
 
 theModule("unicorns")
 //=> "unicorns & rainbows"
 ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string
+declare function theModule(input: string, options?: theModule.Options): string
 
-export = theModule
+export default theModule
