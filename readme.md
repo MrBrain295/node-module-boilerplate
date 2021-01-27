@@ -13,7 +13,7 @@ npm install the-module
 ## Usage
 
 ```js
-const theModule = require("the-module")
+import theModule from "the-module"
 
 theModule("unicorns")
 //=> "unicorns & rainbows"
