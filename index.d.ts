@@ -1,12 +1,10 @@
-declare namespace theModule {
-	export interface Options {
-		/**
-		Lorem ipsum.
+export interface Options {
+	/**
+	Lorem ipsum.
 
-		@default rainbows
-		*/
-		postfix?: string
-	}
+	@default rainbows
+	*/
+	postfix?: string
 }
 
 /**
@@ -22,6 +20,4 @@ theModule("unicorns")
 //=> "unicorns & rainbows"
 ```
 */
-declare function theModule(input: string, options?: theModule.Options): string
-
-export default theModule
+export default function theModule(input: string, options?: Options): string
