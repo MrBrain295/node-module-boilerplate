@@ -4,7 +4,7 @@ export interface Options {
 
 	@default rainbows
 	*/
-	postfix?: string
+	postfix?: string;
 }
 
 /**
@@ -14,10 +14,10 @@ My awesome module.
 
 @example
 ```
-import theModule from "the-module"
+import theModule from 'the-module';
 
-theModule("unicorns")
-//=> "unicorns & rainbows"
+theModule('unicorns');
+//=> 'unicorns & rainbows'
 ```
 */
-export default function theModule(input: string, options?: Options): string
+export default function theModule(input: string, options?: Options): string;

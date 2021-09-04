@@ -1,13 +1,13 @@
-import test from "ava"
-import theModule from "./index.js"
+import test from 'ava';
+import theModule from './index.js';
 
-test("main", t => {
+test('main', t => {
 	t.throws(() => {
-		theModule(123)
+		theModule(123);
 	}, {
 		instanceOf: TypeError,
-		message: "Expected a string, got number"
-	})
+		message: 'Expected a string, got number',
+	});
 
-	t.is(theModule("unicorns"), "unicorns & rainbows")
-})
+	t.is(theModule('unicorns'), 'unicorns & rainbows');
+});
